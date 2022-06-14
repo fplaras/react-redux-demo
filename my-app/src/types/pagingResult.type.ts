@@ -1,4 +1,4 @@
-import { IPropertySummary } from "./propertySummary.type";
+import IPropertySummary from "./propertySummary.type";
 
 export default interface IPagingResults {
     totalCount: number,

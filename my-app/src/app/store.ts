@@ -1,11 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-import propertyReducer from '../features/housing-search/propertySlice';
+import housingReducer from '../features/housing/housingSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
-    property: propertyReducer
+    housing: housingReducer,
   },
 });
 

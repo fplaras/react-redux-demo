@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Property } from './features/housing-search/Property';
+import { Housing } from './features/housing/housing';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-        <Property />
+      <Housing></Housing>
     </div>
   );
 }

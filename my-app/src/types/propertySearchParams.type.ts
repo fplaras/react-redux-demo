@@ -1,5 +1,5 @@
 import IPagingResults from "./pagingResult.type"
-import { IPropertySummary } from "./propertySummary.type"
+import IPropertySummary from "./propertySummary.type"
 
 export default interface IPropertySearchParams{
     propertyName: string,
